@@ -1,0 +1,12 @@
+[2024-05-28 15:11:05] production.ERROR: Class "Laravel\Sanctum\Sanctum" not found {"exception":"[object] (Error(code: 0): Class \"Laravel\\Sanctum\\Sanctum\" not found at C:\\xampp\\htdocs\\DoDangCong\\config\\sanctum.php:21)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\DoDangCong\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(91): require()
+#1 C:\\xampp\\htdocs\\DoDangCong\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(72): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFile(Object(Illuminate\\Config\\Repository), 'sanctum', 'C:\\\\xampp\\\\htdocs...', Array)
+#2 C:\\xampp\\htdocs\\DoDangCong\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#3 C:\\xampp\\htdocs\\DoDangCong\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(309): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#4 C:\\xampp\\htdocs\\DoDangCong\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(470): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#5 C:\\xampp\\htdocs\\DoDangCong\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(194): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#6 C:\\xampp\\htdocs\\DoDangCong\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1187): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 C:\\xampp\\htdocs\\DoDangCong\\artisan(13): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#8 {main}
+"} 
